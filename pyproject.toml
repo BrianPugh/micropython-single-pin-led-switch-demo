@@ -1,0 +1,8 @@
+[tool.belay]
+name = "micropython-single-pin-led-switch-demo"
+
+[tool.belay.dependencies]
+debouncedpin = "https://github.com/BrianPugh/micropython-libs/blob/main/lib/debouncedpin.py"
+
+[tool.pytest.ini_options]
+pythonpath = ".belay/dependencies/main"
